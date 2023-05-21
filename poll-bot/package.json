@@ -1,0 +1,23 @@
+{
+  "name": "poll-bot",
+  "version": "1.0.0",
+  "description": "A Discord poll bot using the Canvas API",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js ./config.example.json",
+    "deploy-test": "node command-deployer.js ./config.example.json"
+  },
+  "author": "ShadowLp174",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.10.0",
+    "@discordjs/rest": "^0.2.0-canary.0",
+    "@polkadot/api": "^10.7.1",
+    "@polkadot/ui-keyring": "^3.4.1",
+    "@scio-labs/use-inkathon": "^0.0.1-alpha.42",
+    "canvas": "^2.8.0",
+    "dayjs": "^1.10.7",
+    "discord-api-types": "^0.26.0",
+    "discord.js": "^13.6.0"
+  }
+}

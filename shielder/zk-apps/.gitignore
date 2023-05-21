@@ -1,0 +1,33 @@
+# IDEs
+/.idea
+/.vscode
+.projectile
+
+# Rust
+.cargo/config
+
+**/target/
+**/*.rs.bk
+
+# Deployment metadata
+**/addresses.json
+**/public_token.json
+**/shielder.json
+
+# Test resources
+**/resources
+
+# Substrate
+*.log
+*.out
+
+# docker
+docker/data/
+db/
+keystore/
+chainspec.json
+p2p_secret
+
+# Python
+__pycache__/
+*.py[cod]
